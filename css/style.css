@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.chimney {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+}
+.chimney_up {
+    height: 10px;
+    width: 40px;
+    background-color: rgb(177, 144, 144);
+    position: absolute;
+    margin-left: 275px;
+    
+}
+.chimney_down {
+    height: 60px;
+    width: 30px;
+    background-color: grey;
+    
+    margin-left: 270px;
+}
+
+.roof {
+    border-color: transparent transparent #80461b transparent;
+    border-style: solid;
+    border-width: 0px 400px 250px 400px;
+    width: 0;
+    height: 0;
+    margin-top: 100px;
+   
+}
