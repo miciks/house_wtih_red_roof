@@ -2,35 +2,90 @@
     display: flex;
     justify-content: center;
     align-items: center;  
+    flex-direction: column;
 }
+/*baca*/
 .chimney {
     position: absolute;
     display: flex;
     justify-content: center;
-    
+    margin-bottom: 370px;   
 }
 .chimney_up {
     height: 10px;
-    width: 40px;
+    width: 38px;
     background-color: rgb(177, 144, 144);
     position: absolute;
-    margin-left: 275px;
-    
+    margin-left: 270px;
 }
 .chimney_down {
     height: 60px;
     width: 30px;
-    background-color: grey;
-    
+    background-color: grey; 
     margin-left: 270px;
 }
-
+/*çatı*/
 .roof {
     border-color: transparent transparent #80461b transparent;
     border-style: solid;
-    border-width: 0px 400px 250px 400px;
+    border-width: 0px 350px 250px 350px;
     width: 0;
     height: 0;
-    margin-top: 100px;
-   
+    margin-top: 50px;
+}
+/*evin gödesi*/
+.house {
+    background-color: pink;
+    height: 330px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+/*pencereler*/
+.window {
+    top: 300px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.window1 {
+    height: 66px;
+    width: 66px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+/*korkuluklar*/
+.box {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: solid 1px black;
+    position: relative;
+}
+/*kapı*/
+.door {
+    height: 160px;
+    width: 120px;
+    position: absolute;
+    display: flex;
+    align-self: flex-end; 
+    background-color: red;
+    border-top: 5px solid #0000ff;
+    border-right: 5px solid #0000ff;
+    border-left: 5px solid #0000ff;
+    border-bottom: 5px solid #000;
+}
+/*kapı kolu*/
+.dooropener{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-left: 20px;
+    align-self: center;   
 }
